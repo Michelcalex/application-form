@@ -21,24 +21,43 @@ p{
     left: 20px;   
 }
 
-.first-row-container {
-    display: inline-block;
-    width: 50%;
-    font-size: 16px;
-    border: 1px solid #e4e4e4;
-    margin: -1px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    position: relative;
+.container {
+   display: inline-block; 
+   font-size: 16px;
+   border: 1px solid #e4e4e4;
+   margin: -1px;
+   position: relative;
 }
 
-.second-row-container {
-    display: inline-block;
-    width: 33.33%;
-    font-size: 16px;
-    border: 1px solid #e4e4e4;
-    border-top-color: transparent;
-    margin: -1px;
-    position: relative;
+.first-row {
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+
+.second-row {
+    width: 33.33%;   
+}
+
+.third-row {
+    width: 25%;
+}
+
+.fourth-row {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.button {
+     text-align: center;
+     border-radius: 5px;
+     width: 25%;
+     margin: 0 auto;
+     background-color: #91be63;
+     font-size: .75em;
+     color: #fff;
+}
+
 
